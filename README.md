@@ -1,2 +1,2 @@
 # Milo-the-dog
-A repository with a website for our dog. And for me to practice HTML &amp; CSS
+A website for our dog, and an opportunity for me to practice HTML & CSS
