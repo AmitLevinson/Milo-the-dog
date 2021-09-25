@@ -1,0 +1,136 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 5vw 20%;
+    background: linear-gradient(to bottom, rgba(146,168,209, 0.1), rgba(146,168,209, 0.6)) ;
+    background-attachment: fixed;
+    color: #29303B;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+    max-width: 1000px;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-bottom: 2.5rem;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap: 1vw;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+
+#avatar {
+    background-image: url('../img/avatar.jpg');
+    box-shadow: 0px 4px 4px #ccc;
+    background-size: cover;
+    background-position: top center;
+    width: 175px;
+    height: 175px;
+    border: 0.5px solid black;
+    border-radius: 50%;
+}
+
+.flex-text {
+    display: flex;
+    max-width: 60ch;
+    min-width: 25ch;
+    text-align: justify;
+    align-self: center;
+}
+
+.links{
+    text-align: center;
+}
+
+/* Photo album of latest activity */
+
+.photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px 2px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.photo-flex {
+    height: 35vh; 
+    flex: 1 1 33%;
+}
+
+.image {
+    width: 100%;
+    position: relative;
+}
+
+.image__img {
+    max-width: 90%;
+    border-radius: 5%;
+    box-shadow: 0 2px 2px #888888;
+}
+
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay > * {
+    transform: translateY(15px);
+    transition: transform 0.25s
+}
+
+.image__overlay:hover {
+    opacity: 1;    
+}
+
+.image__overlay:hover > * {
+    transform:translateY(0);
+}
+
+.image__description {
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
+
+footer {
+    text-align: center;
+    color: #808080;
+    height: 4em;
+    height: 80px;
+    display: block;
+}
+
+@media (max-width: 800px) {
+    .photo-container {
+        flex-direction: column;
+    }
+}
