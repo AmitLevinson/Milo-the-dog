@@ -13,7 +13,19 @@ body {
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+}
+
+a {
+    color: #29303B;
+    text-decoration-color: rgb(113, 134, 173);
+    text-decoration-thickness: .05em;
+    text-underline-offset: 1.5px;
+    /* text-decoration: underline; */
+}
+
+a:hover{
+    color: rgb(113, 134, 173);
 }
 
 #title {
