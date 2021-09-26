@@ -26,6 +26,13 @@ a {
 
 a:hover{
     color: rgb(113, 134, 173);
+    
+}
+
+a:active {
+    color: rgb(113, 134, 173);
+    text-decoration-thickness: .05em;
+    text-underline-offset: 1.5px;
 }
 
 #title {
