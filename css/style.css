@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    margin: 5vw 20%;
+    align-items: center;
+    margin: 5% 20%;
     background: linear-gradient(to bottom, rgba(146,168,209, 0.1), rgba(146,168,209, 0.6)) ;
     background-attachment: fixed;
     color: #29303B;
@@ -51,6 +52,7 @@ a:active {
     column-gap: 1vw;
     align-items: center;
     margin-bottom: 1.5rem;
+    margin-top: 3rem;
 }
 
 
