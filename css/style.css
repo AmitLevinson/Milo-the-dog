@@ -33,7 +33,7 @@ a:active {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     column-gap: 0.5vw;
     align-items: center;
     margin-bottom: 1.5rem;
