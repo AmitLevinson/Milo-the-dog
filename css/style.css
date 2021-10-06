@@ -6,6 +6,12 @@ body {
     font-size: 1.2rem;
 }
 
+.flex-body {
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
+}
+
 .images-title {
     font-size: 1.6rem;
 }
@@ -129,7 +135,6 @@ footer {
     }
     .image {
         width: 75%;
-        position: relative;
     }
     .images-title {
         text-align: center;
