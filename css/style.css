@@ -5,8 +5,8 @@ body {
     background: linear-gradient(to bottom, rgba(146,168,209, 0.1), rgba(146,168,209, 0.6)) fixed;
     color: #29303B;
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.6rem;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
 }
 
 .images-title {
@@ -121,7 +121,7 @@ a:active {
 footer {
     text-align: center;
     color: #808080;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 @media (max-width: 1000px) {
