@@ -132,7 +132,8 @@ footer {
         width: 75%;
     }
     .images-title {
-        text-align: center;
+        text-align: justify;
+        text-justify: inter-word;
     }
     .body-layout {
         display: block;
