@@ -57,7 +57,6 @@ a:active {
 .about-text {
     max-width: 50ch;
     min-width: 15ch;
-    text-align: justify;
     align-self: center;
 }
 
@@ -122,6 +121,7 @@ a:active {
 footer {
     text-align: center;
     color: #808080;
+    font-size: 1.1rem;
 }
 
 @media (max-width: 1000px) {
