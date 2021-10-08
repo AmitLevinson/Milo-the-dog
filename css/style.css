@@ -132,10 +132,10 @@ footer {
         width: 75%;
     }
     .images-title {
+        text-align: center;
+    }
+    .about-text {
         text-align: justify;
         text-justify: inter-word;
-    }
-    .body-layout {
-        display: block;
     }
 }
