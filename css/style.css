@@ -125,11 +125,14 @@ footer {
 }
 
 @media (max-width: 1000px) {
+    body {
+        margin: 0% 10%;
+    }
     .photo-container {
         flex-direction: column;
     }
     .image {
-        width: 75%;
+        width: 85%;
     }
     .images-title {
         text-align: center;
